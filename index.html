@@ -26,7 +26,7 @@
     background: var(--bg);
     color: var(--text);
     font-family: 'Crimson Pro', Georgia, serif;
-    font-size: 20px; /* Increased from 18px */
+    font-size: 20px; /* Increased base font size */
     line-height: 1.7;
     overflow-x: hidden;
     text-align: center;
@@ -57,7 +57,7 @@
 
   .nav-logo {
     font-family: 'Space Mono', monospace;
-    font-size: 0.78rem;
+    font-size: 0.85rem;
     color: var(--cyan);
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -71,7 +71,7 @@
 
   .nav-links a {
     font-family: 'Space Mono', monospace;
-    font-size: 0.72rem;
+    font-size: 0.78rem;
     color: var(--text-dim);
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -95,7 +95,7 @@
 
   .hero-label {
     font-family: 'Space Mono', monospace;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     color: var(--cyan);
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -106,22 +106,22 @@
 
   .hero-name {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(3rem, 7vw, 6.5rem); /* Adjusted for the longer name */
+    font-size: clamp(3rem, 7vw, 7rem);
     font-weight: 900;
     line-height: 1.1;
     letter-spacing: -0.02em;
     margin-bottom: 1.5rem;
-    color: #000; /* Name is now solid black */
     opacity: 0;
     animation: fadeUp 0.8s 0.4s forwards;
+    color: #000; /* Set name to black */
   }
 
   .hero-tagline {
     font-family: 'Crimson Pro', serif;
-    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-size: clamp(1.2rem, 2.8vw, 1.6rem);
     font-style: italic;
     color: var(--text-dim);
-    max-width: 640px;
+    max-width: 700px;
     margin-bottom: 3rem;
     opacity: 0;
     animation: fadeUp 0.8s 0.6s forwards;
@@ -139,7 +139,7 @@
 
   .pill {
     font-family: 'Space Mono', monospace;
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 0.45rem 1.1rem;
@@ -153,13 +153,13 @@
 
   .hero-contact {
     font-family: 'Space Mono', monospace;
-    font-size: 1rem; /* Increased from 0.72rem */
+    font-size: 1.1rem; /* Increased size for contact info */
     color: var(--text-dim);
     letter-spacing: 0.1em;
     opacity: 0;
     animation: fadeUp 0.8s 1s forwards;
   }
-  .hero-contact a { color: var(--gold); text-decoration: none; font-weight: 700; }
+  .hero-contact a { color: var(--gold); text-decoration: none; }
 
   .hero-scroll {
     margin-top: 4rem;
@@ -168,7 +168,7 @@
     justify-content: center;
     gap: 1rem;
     font-family: 'Space Mono', monospace;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     color: var(--text-dim);
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -202,7 +202,7 @@
 
   .section-title {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-size: clamp(2.2rem, 4.5vw, 3.5rem);
     font-weight: 700;
     line-height: 1.1;
   }
@@ -284,7 +284,7 @@
 
   .card-title {
     font-family: 'Playfair Display', serif;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--text);
     margin-bottom: 0.7rem;
@@ -292,7 +292,7 @@
   }
 
   .card-desc {
-    font-size: 0.92rem;
+    font-size: 1.05rem;
     color: var(--text-dim);
     line-height: 1.65;
     margin-bottom: 1.2rem;
@@ -307,7 +307,7 @@
 
   .tag {
     font-family: 'Space Mono', monospace;
-    font-size: 0.57rem;
+    font-size: 0.65rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 0.28rem 0.65rem;
@@ -318,7 +318,7 @@
 
   .card-cta {
     font-family: 'Space Mono', monospace;
-    font-size: 0.62rem;
+    font-size: 0.68rem;
     color: var(--cyan);
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -391,7 +391,7 @@
 
   .modal-title {
     font-family: 'Playfair Display', serif;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
     line-height: 1.25;
@@ -401,7 +401,7 @@
 
   .modal-desc {
     font-family: 'Crimson Pro', serif;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     color: var(--text-dim);
     line-height: 1.75;
     margin-bottom: 1.2rem;
@@ -416,7 +416,7 @@
 
   .modal-conclusion h4 {
     font-family: 'Space Mono', monospace;
-    font-size: 0.65rem;
+    font-size: 0.72rem;
     letter-spacing: 0.2em;
     color: var(--cyan);
     text-transform: uppercase;
@@ -425,7 +425,7 @@
 
   .modal-conclusion p {
     font-family: 'Crimson Pro', serif;
-    font-size: 0.97rem;
+    font-size: 1.05rem;
     color: var(--text-dim);
     line-height: 1.7;
   }
@@ -440,7 +440,7 @@
 
   .skill-group h3 {
     font-family: 'Space Mono', monospace;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     letter-spacing: 0.2em;
     color: var(--cyan);
     text-transform: uppercase;
@@ -451,7 +451,7 @@
 
   .skill-item {
     font-family: 'Crimson Pro', serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--text-dim);
     padding: 0.4rem 0;
     border-bottom: 1px solid rgba(14,124,117,0.08);
@@ -463,7 +463,7 @@
   .skill-item::before {
     content: '▸';
     color: var(--cyan);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     opacity: 0;
     transition: opacity 0.3s;
   }
@@ -489,7 +489,7 @@
 
   .pub-journal {
     font-family: 'Space Mono', monospace;
-    font-size: 0.63rem;
+    font-size: 0.7rem;
     color: var(--gold);
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -498,7 +498,7 @@
 
   .pub-title {
     font-family: 'Crimson Pro', serif;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     font-style: italic;
     color: var(--text);
     line-height: 1.5;
@@ -506,7 +506,7 @@
 
   .pub-authors {
     font-family: 'Crimson Pro', serif;
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     color: var(--text-dim);
     margin-top: 0.25rem;
   }
@@ -514,7 +514,7 @@
   .pub-link {
     display: inline-block;
     font-family: 'Space Mono', monospace;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
     color: var(--cyan-dim);
     text-decoration: none;
     margin-top: 0.5rem;
@@ -529,7 +529,7 @@
   }
   .pub-scholar a {
     font-family: 'Space Mono', monospace;
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     color: var(--gold);
     text-decoration: none;
     letter-spacing: 0.12em;
@@ -563,7 +563,7 @@
 
   .contact-heading {
     font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 0.8rem;
@@ -573,7 +573,7 @@
     font-family: 'Crimson Pro', serif;
     font-style: italic;
     color: var(--text-dim);
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     margin-bottom: 2.5rem;
   }
 
@@ -592,7 +592,7 @@
 
   .contact-row-label {
     font-family: 'Space Mono', monospace;
-    font-size: 0.63rem;
+    font-size: 0.72rem;
     color: var(--cyan);
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -602,7 +602,7 @@
 
   .contact-row-val {
     font-family: 'Crimson Pro', serif;
-    font-size: 1rem;
+    font-size: 1.15rem;
     color: var(--text);
     text-decoration: none;
     transition: color 0.3s;
@@ -616,7 +616,7 @@
     padding: 2rem;
     border-top: 1px solid rgba(14,124,117,0.15);
     font-family: 'Space Mono', monospace;
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     color: var(--text-dim);
     letter-spacing: 0.1em;
   }
@@ -684,3 +684,252 @@
     <div class="scroll-line"></div>Scroll to explore<div class="scroll-line"></div>
   </div>
 </div>
+
+<section id="projects">
+  <div class="section-header reveal">
+    <h2 class="section-title">Engineering Projects</h2>
+    <div class="section-rule"></div>
+  </div>
+
+  <div class="projects-grid">
+    <div class="project-card reveal" onclick="openModal('p1')">
+      <div class="card-img-wrap">
+        <img class="card-img" src="data:image/jpeg;base64,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" alt="Fluid Simulation Analysis">
+      </div>
+      <div class="card-body">
+        <div class="card-tags">
+          <span class="tag">CFD</span> <span class="tag">Ansys Fluent</span>
+        </div>
+        <h3 class="card-title">Air-Blast Atomization: Primary Atomization Study</h3>
+        <p class="card-desc">Computational analysis of gas-liquid interactions in air-blast atomizers using the VOF method with Adaptive Mesh Refinement.</p>
+        <span class="card-cta">View Details →</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal" onclick="openModal('p2')">
+      <div class="card-img-wrap">
+        <img class="card-img" src="data:image/jpeg;base64,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" alt="Mechanical Design CAD">
+      </div>
+      <div class="card-body">
+        <div class="card-tags">
+          <span class="tag">Mechanical Design</span> <span class="tag">CAD/FEA</span>
+        </div>
+        <h3 class="card-title">HVAC System Optimization &amp; Duct Design</h3>
+        <p class="card-desc">Designed and analyzed energy-efficient HVAC layouts using SolidWorks and thermal simulation software.</p>
+        <span class="card-cta">View Details →</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><hr></div>
+
+<section id="skills">
+  <div class="section-header reveal">
+    <h2 class="section-title">Technical Expertise</h2>
+    <div class="section-rule"></div>
+  </div>
+
+  <div class="skills-wrapper">
+    <div class="skill-group reveal">
+      <h3>Design &amp; Modeling</h3>
+      <div class="skill-item">SolidWorks / CATIA / Creo</div>
+      <div class="skill-item">Geometric Dimensioning &amp; Tolerancing</div>
+      <div class="skill-item">Product Development Lifecycle</div>
+      <div class="skill-item">Mechanical System Synthesis</div>
+    </div>
+    <div class="skill-group reveal">
+      <h3>Simulation &amp; Analysis</h3>
+      <div class="skill-item">ANSYS Fluent / CFX (CFD)</div>
+      <div class="skill-item">Finite Element Analysis (FEA)</div>
+      <div class="skill-item">Thermal &amp; Fluid Management</div>
+      <div class="skill-item">Basilisk C / MATLAB / Python</div>
+    </div>
+    <div class="skill-group reveal">
+      <h3>Testing &amp; Lab</h3>
+      <div class="skill-item">High-Speed Photography</div>
+      <div class="skill-item">Image Processing (MATLAB/ImageJ)</div>
+      <div class="skill-item">Prototype Manufacturing</div>
+      <div class="skill-item">Experimental Data Validation</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><hr></div>
+
+<section id="publications">
+  <div class="section-header reveal">
+    <h2 class="section-title">Peer-Reviewed Research</h2>
+    <div class="section-rule"></div>
+  </div>
+
+  <div class="pub-list">
+    <div class="pub-item reveal">
+      <div class="pub-journal">Physical Review Fluids</div>
+      <h4 class="pub-title">"Experimental and numerical study of primary atomization in an air-blast atomizer"</h4>
+      <p class="pub-authors">M. Osama, K. Ambe, X. Han, S. Sanders, et al.</p>
+      <a href="#" class="pub-link">Read Publication →</a>
+    </div>
+    <div class="pub-item reveal">
+      <div class="pub-journal">International Journal of Multiphase Flow</div>
+      <h4 class="pub-title">"High-fidelity numerical simulations of sheet-thinning and breakup"</h4>
+      <p class="pub-authors">M. Osama, J. Smith, X. Han.</p>
+      <a href="#" class="pub-link">Read Publication →</a>
+    </div>
+  </div>
+
+  <div class="pub-scholar reveal">
+    <a href="https://scholar.google.com">Full Google Scholar Profile</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-inner reveal">
+    <h2 class="contact-heading">Get in Touch</h2>
+    <p class="contact-sub">Inquiries regarding collaborations, research, or engineering opportunities.</p>
+    <div class="contact-details">
+      <div class="contact-row">
+        <span class="contact-row-label">Email</span>
+        <a href="mailto:musama375@hotmail.com" class="contact-row-val">musama375@hotmail.com</a>
+      </div>
+      <div class="contact-row">
+        <span class="contact-row-label">Phone</span>
+        <a href="tel:+13137100805" class="contact-row-val">+1 313 710 0805</a>
+      </div>
+      <div class="contact-row">
+        <span class="contact-row-label">LinkedIn</span>
+        <a href="#" class="contact-row-val">linkedin.com/in/mosama</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2024 Dr. Muhammad Osama. Designed with Engineering Precision.
+</footer>
+
+<div class="modal-overlay" id="modal-p1">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('p1')">CLOSE</button>
+    <div class="modal-gallery">
+      <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800" alt="Atomization View 1">
+      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800" alt="Simulation Grid">
+    </div>
+    <div class="modal-content">
+      <h2 class="modal-title">Air-Blast Atomization: Primary Atomization Study</h2>
+      <div class="modal-tags">
+        <span class="tag">CFD</span> <span class="tag">Adaptive Mesh</span> <span class="tag">VOF</span>
+      </div>
+      <p class="modal-desc">This research focuses on the liquid sheet breakup mechanisms in high-speed airflows. Using the Basilisk C solver, we implemented Volume of Fluid (VOF) methods with octree Adaptive Mesh Refinement (AMR) to capture interface dynamics at scales previously computationally prohibitive.</p>
+      <div class="modal-conclusion">
+        <h4>Resulting Impact</h4>
+        <p>Improved understanding of droplet size distribution leading to more efficient fuel injection systems in aerospace applications.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-p2">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('p2')">CLOSE</button>
+    <div class="modal-gallery single">
+      <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=1200" alt="Ductwork CAD">
+    </div>
+    <div class="modal-content">
+      <h2 class="modal-title">HVAC System Optimization</h2>
+      <div class="modal-tags">
+        <span class="tag">SolidWorks</span> <span class="tag">Thermal Analysis</span> <span class="tag">Optimization</span>
+      </div>
+      <p class="modal-desc">Developed optimized ducting layouts for commercial complexes to reduce static pressure losses. Performed Finite Element Analysis (FEA) on structural mounts and thermal expansion joints to ensure long-term reliability under variable load conditions.</p>
+      <div class="modal-conclusion">
+        <h4>Resulting Impact</h4>
+        <p>Reduced system energy consumption by 14% through improved aerodynamic routing of main airflow arteries.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// CANVAS BACKGROUND
+const canvas = document.getElementById('bg-canvas');
+const ctx = canvas.getContext('2d');
+let particles = [];
+
+function init() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  particles = [];
+  for(let i=0; i<60; i++){
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      vx: (Math.random() - 0.5) * 0.4,
+      vy: (Math.random() - 0.5) * 0.4,
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        if(this.x < 0) this.x = canvas.width;
+        if(this.x > canvas.width) this.x = 0;
+        if(this.y < 0) this.y = canvas.height;
+        if(this.y > canvas.height) this.y = 0;
+      },
+      draw() {
+        ctx.fillStyle = '#0e7c75';
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, 1.5, 0, Math.PI*2);
+        ctx.fill();
+      }
+    });
+  }
+}
+window.addEventListener('resize', init);
+init();
+
+function loop() {
+  ctx.clearRect(0,0,canvas.width, canvas.height);
+  ctx.strokeStyle = 'rgba(14,124,117,0.08)';
+  ctx.lineWidth = 0.8;
+  for(let i=0; i<particles.length; i++)
+    for(let j=i+1; j<particles.length; j++){
+      let dx = particles[i].x - particles[j].x;
+      let dy = particles[i].y - particles[j].y;
+      if((dx*dx + dy*dy) < 12000) { /* fixed radius for connections */
+        ctx.beginPath();
+        ctx.moveTo(particles[i].x,particles[i].y);
+        ctx.lineTo(particles[j].x,particles[j].y);
+        ctx.stroke();
+      }
+    }
+  particles.forEach(p => { p.update(); p.draw(); });
+  requestAnimationFrame(loop);
+}
+loop();
+
+// SCROLL REVEAL
+const revealEls = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+revealEls.forEach(el => observer.observe(el));
+
+// MODAL
+function openModal(id) {
+  document.getElementById('modal-' + id).classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal(id) {
+  document.getElementById('modal-' + id).classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.querySelectorAll('.modal-overlay').forEach(m => {
+  m.addEventListener('click', e => { if (e.target === m) { m.classList.remove('open'); document.body.style.overflow = ''; } });
+});
+</script>
+
+</body>
+</html>
